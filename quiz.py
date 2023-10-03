@@ -37,9 +37,10 @@ class Quiz:
 	def next_btn(self):
 		
 		if self.check_ans(self.q_no):
-			
 			self.correct += 1
-		
+		else:
+			messagebox.showinfo("Wrong!", f"The correct answer is {answer[self.q_no]}")
+			
 		self.q_no += 1
 		
 		if self.q_no==self.data_size:
@@ -63,7 +64,6 @@ class Quiz:
 
 	def display_options(self):
 		val=0
-		
 		self.opt_selected.set(0)
 		
 		for option in options[self.q_no]:
@@ -74,7 +74,7 @@ class Quiz:
 		
 		q_no = Label(gui, text=question[self.q_no], width=80,
 		font=( 'Calibri' ,16, 'bold' ), anchor= 'w' )
-		
+
 		q_no.place(x=70, y=100)
 
 	def display_title(self):
@@ -87,7 +87,6 @@ class Quiz:
 	def radio_buttons(self):
 		
 		q_list = []
-		
 		y_pos = 150
 		
 		while len(q_list) < 4:
@@ -111,6 +110,6 @@ with open('data.json') as f:
 
 question = (data['question'])
 options = (data['options'])
-answer = (data[ 'answer'])
+answer = (data['answer'])
 quiz = Quiz()
 gui.mainloop()
