@@ -1,6 +1,6 @@
 ## Quiz Game (with GUI)
 
-**Update:** initial feedback will be given while you click "Next" with a WRONG answer.
+**Update:** instant feedback will be given while you click "Next" with a WRONG answer.
 
 This Python code uses the `tkinter` library to create a simple quiz application. Let's break down the code step by step:
 
