@@ -2,6 +2,8 @@
 
 **Update:** instant feedback will be given while you click "Next" with a WRONG answer.
 
+[<img src="https://raw.githubusercontent.com/calcuis/quiz-game/master/demo.jpg" width="500" height="300">](https://github.com/calcuis/quiz-game/blob/main/demo.jpg)
+
 This Python code uses the `tkinter` library to create a simple quiz application. Let's break down the code step by step:
 
 **Importing necessary modules:**
