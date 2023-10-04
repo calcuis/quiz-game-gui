@@ -39,7 +39,7 @@ class Quiz:
 		if self.check_ans(self.q_no):
 			self.correct += 1
 		else:
-			messagebox.showinfo("Wrong!", f"The correct answer is {answer[self.q_no]}")
+			messagebox.showinfo("Sorry", f"The correct answer is option {answer[self.q_no]}")
 			
 		self.q_no += 1
 		
