@@ -86,7 +86,6 @@ class Quiz:
 		title.place(x=0, y=2)
 
 	def radio_buttons(self):
-		
 		q_list = []
 		y_pos = 150
 		
