@@ -51,7 +51,6 @@ class Quiz:
 			self.display_options()
 
 	def buttons(self):
-		
 		next_button = Button(gui, text="Next",command=self.next_btn,
 		width=10,font=("Calibri",16,"bold"))
 		
@@ -71,6 +70,9 @@ class Quiz:
 			val+=1
 
 	def display_question(self):
+		q_no = Label(text="\n", width=70,
+		font=( 'Calibri' ,16, 'bold' ), anchor= 'w' )
+		q_no.place(x=70, y=100)
 		
 		q_no = Label(gui, text=question[self.q_no], width=80,
 		font=( 'Calibri' ,16, 'bold' ), anchor= 'w' )
@@ -78,7 +80,6 @@ class Quiz:
 		q_no.place(x=70, y=100)
 
 	def display_title(self):
-		
 		title = Label(gui, text="QUIZ",
 		width=60, bg="black",fg="white", font=("Calibri", 20, "bold"))
 		
