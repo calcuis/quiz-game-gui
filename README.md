@@ -2,9 +2,9 @@
 
 **Update:** instant feedback will be given while you click "Next" with a WRONG answer.
 
-[<img src="https://raw.githubusercontent.com/calcuis/quiz-game/master/demo.jpg" width="300" height="200">](https://github.com/calcuis/quiz-game/blob/main/demo.jpg)
-[<img src="https://raw.githubusercontent.com/calcuis/quiz-game/master/demo1.jpg" width="300" height="200">](https://github.com/calcuis/quiz-game/blob/main/demo1.jpg)
-[<img src="https://raw.githubusercontent.com/calcuis/quiz-game/master/demo2.jpg" width="300" height="200">](https://github.com/calcuis/quiz-game/blob/main/demo2.jpg)
+[<img src="https://raw.githubusercontent.com/calcuis/quiz-game-gui/master/demo.jpg" width="300" height="200">](https://github.com/calcuis/quiz-game-gui/blob/main/demo.jpg)
+[<img src="https://raw.githubusercontent.com/calcuis/quiz-game-gui/master/demo1.jpg" width="300" height="200">](https://github.com/calcuis/quiz-game-gui/blob/main/demo1.jpg)
+[<img src="https://raw.githubusercontent.com/calcuis/quiz-game-gui/master/demo2.jpg" width="300" height="200">](https://github.com/calcuis/quiz-game-gui/blob/main/demo2.jpg)
 
 This Python code uses the `tkinter` library to create a simple quiz application. Let's break down the code step by step:
 
